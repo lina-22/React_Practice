@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Hello from './mycomponents/Hello.js';
+import Welcome from './mycomponents/Welcome';
 
 // function App() {
 //   // return (
@@ -31,7 +32,14 @@ import Hello from './mycomponents/Hello.js';
 function App(){
    return (
      <div className="App">
-         <Hello></Hello>
+         <Hello age = "25" name="Lina"></Hello>  
+         <Hello age = "25" name="Haq"></Hello>  
+         <Hello  age = "25" name="Kashif"></Hello>  
+         <Hello age = "25" name="Kaisan"></Hello>  
+
+         <Welcome></Welcome>
+         <Welcome></Welcome>
+         <Welcome></Welcome>
      </div>
    );
 }
