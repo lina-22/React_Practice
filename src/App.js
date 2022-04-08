@@ -29,17 +29,28 @@ import Welcome from './mycomponents/Welcome';
 // }
 
 
+// function App(){
+//    return (
+//      <div className="App">
+//          <Hello age = "25" name="Lina"></Hello>  
+//          <Hello age = "25" name="Haq"></Hello>  
+//          <Hello  age = "25" name="Kashif"></Hello>  
+//          <Hello age = "25" name="Kaisan"></Hello>  
+
+//          <Welcome age = "25" name="Lina"></Welcome>
+//          <Welcome age = "25" name="Lina"></Welcome>
+//          <Welcome age = "25" name="Lina" ></Welcome>
+//      </div>
+//    );
+// }
+
+// export default App;
+
+
 function App(){
    return (
      <div className="App">
-         <Hello age = "25" name="Lina"></Hello>  
-         <Hello age = "25" name="Haq"></Hello>  
-         <Hello  age = "25" name="Kashif"></Hello>  
-         <Hello age = "25" name="Kaisan"></Hello>  
-
-         <Welcome></Welcome>
-         <Welcome></Welcome>
-         <Welcome></Welcome>
+     <Demo/>
      </div>
    );
 }
